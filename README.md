@@ -1,4 +1,10 @@
 # Node Exam
+## Inicializar proyecto
+Utiliza Docker para cargar todo el proyecto empezar a funcionar
+
+- Ejecutar: docker-compose up -d
+- Web: **http://localhost:3000/**
+- MongoAdmin: **http://localhost:4000/**
 
 ## Alquiler de vehiculos
 
