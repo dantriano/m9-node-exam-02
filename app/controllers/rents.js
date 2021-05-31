@@ -13,12 +13,12 @@ exports.delete = async (req, res, next) => {
   
 };
 
-exports.add = async (req, res, next) => {
+exports.add = async (req, res, next) => {   
+  //price: Precio del coche x el numero de dias. PAra saber el precio del coche debes obtener ANTES la info del coche seleccionado
   var el = {
     car: "",
     client: "",
     days: "",
-    price: "" //Precio del coche x el numero de dias
   };
   //Operaciones para guardar en la DB
 
