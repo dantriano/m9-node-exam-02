@@ -6,16 +6,10 @@ var express = require("express"),
   rentsCtrl = require(path.join(ctrlDir, "rents")),
   clientsCtrl = require(path.join(ctrlDir, "clients"));
 
-router.get("/chat/:id", async (req, res, next) => {
-  res.render("chat.pug");
-});
 
-router.route("/rent/new").get([
-  (req, res, next) => {
-    res.render("form", {
-      cars: req.cars ? req.cars : [],
-      clients: req.clients ? req.clients : [],
-    });
-  },
-]);
+//router.route("/chat/:id");
+//router.route("/rent/new");
+//router.route("/rent/list");
+
+
 module.exports = router;

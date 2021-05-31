@@ -10,9 +10,9 @@ block content
     th Opciones
     each rent in rents
       tr
-        td= rent.days 
-        td= rent.car 
-        td= rent.client
-        td= rent.price
+        td
+        td
+        td
+        td
         td
           a(href=`/rent/delete/${rent.id}`) Borrar Alquiler
